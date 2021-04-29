@@ -19,12 +19,12 @@ This is a JSON file, use it tell where to write:
   }  
  ]  
 }
-````
+```
 Don't have a password key/value because we have client SSL connection.
 You should use it too instead of passwords.
 
 ## Include it in your scripts:
-`from writetarget import target_pgsql as pgsql`
+```from writetarget import target_pgsql as pgsql```
 
 ## Def dict as a variable in your own way
 ```
@@ -38,7 +38,7 @@ cpu_load_metrics = {
 ## Write
 **Dictionary KEYS must match column names in target database,** dictionary VALUES represent the data to write
 
-`pgsql().write('cpu_load',cpu_load_metrics)`
+```pgsql().write('cpu_load',cpu_load_metrics)```
 
 
 
