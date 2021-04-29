@@ -36,7 +36,9 @@ cpu_load_metrics = {
 ```
 
 ## Write
-**Dictionary KEYS must match column names in target database,** dictionary VALUES represent the data to write
+**Dictionary KEYS must match column names in target database.**  
+Dictionary VALUES represent the data to write.  
+First argument as the Postgres target table name.  
 
 ```pgsql().write('cpu_load',cpu_load_metrics)```
 
