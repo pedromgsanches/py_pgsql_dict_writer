@@ -13,7 +13,7 @@ class get_config():
           self.target_port = d['port']
           self.target_db = d['db']
           self.target_user = d['user']
-          # target_type not yet in use // use it for your own purposes. Ex: dev,tst,prd or app,mon,conf or something else
+          # target_type not yet in use
           self.target_type = d['type']
           self.tab_prefix = d['table_prefix']
           self.tab_suffix = d['table_suffix']
