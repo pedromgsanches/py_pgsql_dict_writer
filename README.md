@@ -1,6 +1,6 @@
 # py_pgsql_dict_writer
 Script to write python dictionaries into a PostgreSQL database.
-I wrote this to work as a module for a in house monitoring solution in a TimeScale database.
+I wrote this to work as a module for a in house monitoring solution in a PostgreSQL/TimeScale database.
 
 ## Usage
 ### Edit config.json
