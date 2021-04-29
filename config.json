@@ -1,0 +1,13 @@
+{
+ "target_database": [
+  {
+   "db": "psqlmetrics",
+   "host": "localhost",
+   "user": "postgres",
+   "port": "50000",
+   "type": "pgsql12",
+   "table_prefix": "psqlmetrics.",
+   "table_suffix": ""
+  }
+ ]
+}
